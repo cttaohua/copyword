@@ -7,7 +7,7 @@ copywordJS的使用方法非常简单
 npm install copyword --save-dev
 ```
 ```js
-import copywordJS from 'copywordJS'
+import copywordJS from 'copyword'
 ```
 或
 ```js

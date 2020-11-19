@@ -1,0 +1,32 @@
+{
+  "name": "copyword",
+  "version": "0.1.0",
+  "description": "Modern copy to clipboard. No Flash. Just 1kb",
+  "main": "dist/copywordJS.min.js",
+  "scripts": {
+    "serve": "rollup --config --watch",
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "copy",
+    "copyword",
+    "copywordJS",
+    "clipboard",
+    "前端",
+    "JavaScript",
+    "js",
+    "web"
+  ],
+  "author": "chentan",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cttaohua/copywordJS"
+  },
+  "devDependencies": {
+    "rollup": "^2.33.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}

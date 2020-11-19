@@ -1,6 +1,6 @@
 {
   "name": "copyword",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Modern copy to clipboard. No Flash. Just 1kb",
   "main": "dist/copywordJS.min.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/cttaohua/copywordJS"
+    "url": "https://github.com/cttaohua/copyword"
   },
   "devDependencies": {
     "rollup": "^2.33.3",

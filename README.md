@@ -1,20 +1,20 @@
-# copywordJS
-## 1、copywordJS是什么
-copywordJS是一款可以将文本复制粘贴到粘贴板上的小插件，它不依赖任何第三方库，大小仅有1kb。
+# copyword
+## 1、copyword是什么
+copyword是一款可以将文本复制粘贴到粘贴板上的小插件，它不依赖任何第三方库，大小仅有1kb。
 ## 2、使用方法
-copywordJS的使用方法非常简单
+copyword的使用方法非常简单
 ```shell
 npm install copyword --save-dev
 ```
 ```js
-import copywordJS from 'copyword'
+import copyword from 'copyword'
 ```
 或
 ```js
 <script src="dist/copywordJS.min.js"></script>
 ```
 ```js
-const flag = copywordJS('我是要被复制的内容')
+const flag = copyword('我是要被复制的内容')
 
 if (flag) {
   alert('复制成功')

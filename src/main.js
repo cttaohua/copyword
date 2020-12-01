@@ -47,7 +47,7 @@ function copyText (fakeElem) {
   var successed
   try {
     successed = document.execCommand('copy', true)
-  } catch {
+  } catch (err) {
     successed = false
   }
   // Empty the selection
